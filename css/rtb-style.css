@@ -1,0 +1,2418 @@
+/****************************
+Base Element Styles
+*****************************/
+* {
+	box-sizing: border-box;
+
+}
+
+
+
+body {
+	font: normal 1em/1.6 'Roboto Condensed', sans-serif;
+	background: #fff;
+	padding-top: 100px;
+
+}
+
+
+p {
+
+	padding: 0 1em 0 1em;
+	margin-bottom: 1.8em;
+	/*border: 2px solid #0FF;*/
+}
+
+
+
+h1,
+h2,
+h3 {
+	margin: 0;
+}
+
+
+#main-nav a,
+h1,
+h2,
+h3,
+legend,
+label.booking {
+	font-family: 'Audiowide', sans-serif;
+}
+
+
+
+img {
+	max-width: 100%;
+	margin-bottom: 1.25em;
+	/*border: 2px solid #CF3;*/
+}
+
+
+
+a {
+	text-decoration: none;
+
+
+}
+
+
+
+
+
+
+
+
+/*******************************************************************
+Base Layout Styles
+********************************************************************/
+/*************
+Main Header
+**************/
+
+.main-header {
+	height: 80px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	background: #fff;
+	box-shadow: 0 6px 8px rgba(0, 0, 0, .7);
+	z-index: 100;
+	/*border: 2px solid #030;*/
+
+}
+
+
+
+.logo {
+	margin: 1px auto 0;
+	width: 84px;
+	/*border: 2px solid #F30;*/
+
+}
+
+
+
+/*************
+Main Nav
+**************/
+
+#main-nav {
+
+	width: 150px;
+	padding: 10px 0;
+	margin: -72px 1px 0 0;
+	text-align: center;
+	float: right;
+	background-color: #fff;
+
+	/*border: 2px solid #FF0;*/
+}
+
+
+
+#main-nav ul {
+	display: none;
+	margin: 0 auto;
+	/*border: 2px dashed #F00; */
+}
+
+
+#main-nav li {
+
+	text-align: center;
+	line-height: 2.5;
+	font-size: 0.689em;
+	margin: 5px auto;
+	/*border: 2px solid #3F3; */
+
+
+}
+
+
+#main-nav a.current,
+.footy a.current {
+
+	border-bottom: 2px solid rgba(255, 0, 0, .7);
+
+
+}
+
+
+#main-nav li a:link,
+#main-nav li a:visited {
+	color: #000;
+	padding: 5px 10px;
+
+}
+
+
+
+
+
+
+
+
+#main-nav li a:hover {
+	color: rgb(255, 255, 255);
+	background-color: rgba(000, 000, 000, .7);
+	border-bottom: none;
+
+}
+
+
+#main-nav:hover ul {
+	display: block;
+}
+
+
+
+
+a#menu-button {
+	display: inline-block;
+	width: 10px;
+	margin: -5px 2px 0 105px;
+	padding: 20px;
+	text-align: center;
+	background: #000;
+	background: url(../img/menu_icon.png) center center no-repeat,
+		linear-gradient(rgb(255, 0, 0), rgb(0, 0, 0));
+
+
+}
+
+
+a#menu-button:hover {
+	background: #f00;
+	background: url(../img/menu_icon.png) center center no-repeat,
+		linear-gradient(#CCC, #000);
+}
+
+
+
+/******************
+Nav Social Media Bar
+*******************/
+
+
+
+
+.socialMedia {
+	width: 118px;
+	height: 35px;
+	padding: 10px;
+	margin-top: -27px;
+	/*border: 2px solid #F3C;*/
+}
+
+.socialMedia li {
+	width: 25px;
+	display: inline-block;
+	margin: -9px auto 0;
+
+}
+
+
+.socialMedia li .mediaIcons {
+	margin: 0;
+}
+
+
+
+
+
+/*******************************
+     Layout Containers
+*******************************/
+
+
+
+.grad_bg {
+	background: #000 linear-gradient(#000 0%, #000 50%, #000 75%, #000 90%, #ff0000 100%);
+	padding-bottom: 0.5em;
+}
+
+
+.grad2_bg,
+.modal_overlay {
+	background: #000 linear-gradient(#f00 0%, #000 12%, #000 75%, #000 90%, #f00 100%);
+	padding-top: 0.95em;
+}
+
+
+.grad3_bg {
+	background: #000 linear-gradient(#000 0%, #000 10%, #000 75%, #f00 90%, #f00 100%);
+}
+
+
+
+.oneColumn-wrapper {
+	position: relative;
+	/*border: 2px solid #FF0;*/
+
+}
+
+
+
+
+
+.experience,
+.book,
+.news {
+	background: #fff;
+	box-shadow: 0 0 18px 8px rgba(0, 0, 0, .7);
+
+}
+
+
+.news {
+	box-shadow: 0 0 18px 1px rgba(0, 0, 0, .7);
+}
+
+.people-container {
+	padding: 100px 0 70px;
+}
+
+.inner-container,
+.inner_container2 {
+	padding: 0 1em 2em 1em;
+	/*border: 2px solid #99F;*/
+
+}
+
+
+
+.inner_container2 {
+	padding-bottom: 1em;
+}
+
+
+.experience .inner-container {
+	margin-top: 14px;
+
+}
+
+
+
+/***Masterclass Container****/
+
+.masterclass-container2 {
+	margin-top: -30px;
+}
+
+
+
+/***Masterclass Container End ****/
+
+
+
+
+
+
+
+.fat-footer {
+
+	box-shadow: inset 0 0 2px 2px #000;
+
+}
+
+
+form {
+	min-width: 300px;
+	margin: 10px auto;
+	padding: 10px 20px 30px;
+	box-shadow: inset 0 0 18px 5px rgb(255, 0, 0);
+
+}
+
+
+.faculty-container {
+
+	padding-bottom: 1em;
+}
+
+.fat-footer {
+
+	padding-top: 20px;
+	padding-bottom: 10px;
+	font-weight: 700;
+	text-align: center;
+
+
+}
+
+.footer-content {
+	padding: 0 1em;
+}
+
+/*******************************
+    Page Elements
+*******************************/
+
+/***GENERAL ACROSS ALL PAGES***/
+.logo,
+#main-nav a,
+.social a,
+.dance-class-images,
+.bio-images-first,
+.bio-images,
+.venue-images,
+.ven-divide,
+.book a,
+.move-top a,
+.move-top2 a,
+.footy a,
+.center,
+.hidden-text:target,
+.anchor,
+label.booking,
+input[id="buy-masterclass"],
+#card-logos,
+button[type="submit"],
+button[type="reset"],
+time {
+	display: block;
+
+}
+
+
+
+.hide-anchor,
+textarea,
+.contact-info li:nth-child(n+6),
+#card-logos li,
+#foot-card-logos li {
+	display: inline-block;
+}
+
+
+
+.home-head,
+.experienceHead,
+.masterclass-head,
+.artist-name,
+/*faculty page*/
+.bonus,
+.move-top,
+.move-top2,
+.book,
+.facultyHead,
+.faculty-head,
+.faculty-head2,
+.theseArtist,
+.venue-head,
+.ven-h2ead,
+.venueText,
+.footerHeaders,
+.sub-head,
+.inner_container2,
+.center,
+.contact-info,
+fieldset:nth-of-type(3) label.booking,
+#card-logos,
+input[id="buy-masterclass"],
+.siteMap {
+	text-align: center;
+}
+
+
+
+.ven-divide,
+.venue-images,
+.contact-info,
+#card-logos,
+input[id="buy-masterclass"],
+button[type="submit"],
+button[type="reset"],
+article.post,
+.siteMap {
+	margin: 0 auto;
+}
+
+.top-head,
+button[type="submit"],
+button[type="reset"] {
+	background: #fff;
+}
+
+
+
+.white-text,
+.hide-anchor,
+.move-top a,
+.move-top2 a,
+.ven,
+.ven-link,
+.book a,
+.book2 a {
+	color: #fff;
+}
+
+
+
+
+.pop-out-text,
+.hide-anchor,
+.contact-detailsH,
+.book,
+.book2 {
+
+	text-shadow: 1px 0 1px #f00,
+		1px 1px 1px #000;
+
+}
+
+
+.pop-out-text,
+.hide-anchor,
+.contact-detailsH,
+/**contact page**/
+.contact-info {
+	/**contact page**/
+	font-weight: 700;
+}
+
+
+
+
+/***GENERAL ACROSS ALL PAGES ENDS***/
+
+
+
+
+
+.experience-head .mas-heads {
+	font-size: 1.2em;
+	/*19.2px/16px*/
+
+}
+
+
+
+
+
+
+
+
+.top-head {
+
+	margin-bottom: -4px;
+	line-height: 1.1;
+	padding-top: 0.7em;
+	/*border: 2px solid #3FF;*/
+	text-shadow: 1px 1px 2px rgba(87, 87, 87, .5);
+
+}
+
+.bot-head {
+	padding: 5px 0;
+	background: linear-gradient(#f00, #000);
+	text-shadow: 1px 1px 2px rgba(247, 247, 247, .5);
+	text-shadow: 2px 2px 4px rgba(87, 87, 87, .7);
+}
+
+
+
+
+.home-head .top-head {
+	font-size: 1.5em;
+
+}
+
+
+
+.home-head .bot-head {
+	font-size: 0.9em;
+
+}
+
+
+
+.first-container .sub-head {
+	font-size: 1em;
+}
+
+
+
+
+
+.ven2,
+a.back-to {
+	color: #000;
+}
+
+
+
+.ven,
+.ven-link {
+	text-decoration: underline;
+
+}
+
+.sub-head,
+.artist-name,
+.paul {
+	/*faculty page*/
+	font-size: 1.25rem;
+	/*20px*/
+
+}
+
+
+
+
+.sub-head,
+.paul {
+	padding-left: 1em;
+}
+
+.artist-name {
+	margin-top: 30px;
+}
+
+#experHeadContainer,
+.experienceHead,
+.facultyHead,
+.footerHeaders {
+	height: 120px;
+}
+
+
+.experienceHead,
+.facultyHead,
+.footerHeaders {
+	position: relative;
+	margin: 0 auto;
+	width: 300px;
+	/*border: solid 1px #30C;*/
+}
+
+
+
+.experienceHead {
+	font-size: 1.125rem;
+	/*18px/16px*/
+	padding-top: 20px;
+	z-index: 10;
+	/*border: 2px solid #F39;*/
+
+
+}
+
+
+/*Masterclass Page*/
+
+.masterclass-head .top-head {
+	font-size: 1.6em;
+}
+
+.masterclass-head .bot-head {
+	font-size: 1.4em;
+}
+
+
+
+
+
+/*Masterclass Page End*/
+
+
+
+
+.footerHeaders {
+	font-size: 1.2rem;
+	width: 360px;
+
+}
+
+.smoke-man,
+.smoke-man-faculty,
+.smoke-man-mission {
+	position: absolute;
+
+}
+
+
+
+.smoke-man,
+.smoke-man-faculty {
+	width: 280px;
+
+}
+
+.smoke-man {
+	top: 16px;
+	left: 2px;
+	z-index: -1;
+
+
+
+}
+
+
+.smoke-man-faculty {
+	top: 9px;
+	left: -7px;
+	z-index: -1;
+
+
+}
+
+
+
+
+
+.smoke-man-mission {
+
+
+	top: 0;
+	left: -7px;
+	z-index: -1;
+	width: 340px;
+
+
+}
+
+
+
+
+
+
+
+
+
+.name,
+.red-text,
+.contact-info li:nth-child(2n+6),
+.contact-info li:first-child {
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, .4);
+
+}
+
+
+
+.name {
+	color: #f00;
+	font-size: 18px;
+
+}
+
+
+
+
+.dance-class-images {
+	margin: 0 auto;
+}
+
+
+.pop-out-text,
+.hide-anchor,
+.contact-detailsH,
+.bold {
+	font-weight: 700;
+	font-size: 1.1em;
+
+}
+
+
+
+
+
+
+
+
+.book,
+.book2 {
+
+	background: none;
+	width: 100%;
+	height: 140px;
+	margin: 0;
+	padding: 5.2em 0 0.5em;
+	clear: both;
+
+
+}
+
+
+.book2 {
+	height: 50px;
+	padding: 1em 0 0.5em;
+}
+
+
+
+.book,
+.book2,
+.ven-date {
+	font-size: 1.2em;
+}
+
+
+
+
+
+.red-text {
+	color: #f00;
+	font-size: 1em;
+}
+
+.move-top {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	font-size: 1em;
+	/*16px*/
+	/*border: 2px solid #F39;*/
+}
+
+
+
+.move-top2 {
+	font-size: 1em;
+	margin-top: 25px;
+}
+
+
+.sub-head,
+.move-top,
+.move-top2 {
+	font-weight: normal;
+}
+
+
+
+/**Faculty Page Elements**/
+
+
+
+
+.facultyHead {
+	font-size: 1.7em;
+}
+
+
+
+.theseArtist {
+	/*Faculty page first paragraph*/
+
+	width: 100%;
+	max-width: 900px;
+	padding: 2em 0 0;
+	color: #000;
+	margin: 10px auto 20px;
+}
+
+
+
+.faculty-head .top-head,
+.faculty-head2 .top-head {
+	font-size: 2em;
+
+}
+
+
+
+.faculty-head .bot-head {
+	font-size: 1.8em;
+
+}
+
+
+.faculty-head2 .bot-head,
+.ven,
+.ven-link {
+	font-size: 1.5em;
+
+}
+
+
+
+
+.bio-images-first,
+.bio-images {
+	width: 251px;
+	border-radius: 100%;
+	margin: 0 auto;
+
+}
+
+
+figure,
+figcaption {
+	/*border: 2px solid #FF0;*/
+}
+
+
+
+
+
+
+.hidden-text {
+	display: none;
+}
+
+
+.hidden-text:target {
+
+
+	padding-top: 100px;
+}
+
+
+.anchor {
+
+	height: 100px;
+	margin-top: -100px;
+	visibility: hidden;
+}
+
+.hide-anchor {
+
+	margin-left: 10px;
+	text-decoration: underline;
+
+}
+
+
+.modal {
+	display: none;
+
+}
+
+/*******Venue Page Elements*********/
+
+
+.ven-divide {
+	width: 90%;
+	margin-bottom: 2em;
+	height: 20px;
+	border-radius: 5px;
+	background: #f00 linear-gradient(#f00 0%, #000, #f00);
+}
+
+.ven-h2ead {
+	font-size: .9em;
+
+}
+
+
+.ven-place h2,
+.ven-place p,
+.ven-place h3,
+.book {
+	visibility: hidden;
+}
+
+/****** Booking Page **********/
+
+.required-field {
+	padding: 0 0 0 1em;
+
+}
+
+
+.field {
+	margin-bottom: 15px;
+}
+
+fieldset {
+	border: 3px #000 inset;
+}
+
+
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="tel"],
+select,
+option,
+textarea,
+button[type="submit"],
+button[type="reset"] {
+
+	outline: 0;
+	border-radius: 10px;
+	box-shadow: 0 1px 1px rgb(255, 0, 0) inset;
+}
+
+
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="tel"],
+textarea {
+	padding: 10px;
+
+}
+
+
+select {
+	padding: 6px;
+	height: 32px;
+
+}
+
+textarea {
+
+	width: 100%;
+}
+
+input[id="buy-masterclass"] {
+	width: 55px;
+	padding: 6px;
+	margin-bottom: 10px;
+	font-weight: 700;
+
+}
+
+
+#card-logos,
+#foot-card-logos {
+
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 2px;
+
+}
+
+
+#card-logos li,
+#foot-card-logos li {
+	width: 30px;
+	margin: 0 5px;
+}
+
+button[type="submit"],
+button[type="reset"] {
+	width: 175px;
+	border: 2px rgba(0, 0, 0, .7) outset;
+	padding: 6px;
+	font-size: 1em;
+
+}
+
+
+button[type="reset"] {
+	width: 75px;
+}
+
+select:focus,
+input:focus,
+textarea:focus {
+	box-shadow: inset 0 0 4px 2px rgb(0, 0, 0);
+}
+
+
+/*************News Page ****************/
+
+article.post {
+	margin: 10px 0;
+	padding: 0 0.7em 1em;
+}
+
+.postHead {
+	font-size: 1.1em;
+	padding: 5px;
+}
+
+p.time-container {
+	padding: 0 0 0 5px;
+	margin: 0;
+	/*border: 1px solid #f30cea;*/
+}
+
+
+time.pop-out-text {
+	font-size: 0.9em;
+	/*border: 1px solid #00f;	*/
+}
+
+/****** Footer Pages **********/
+
+/**terms and conditions page**/
+
+.center {
+	font-size: 0.995em;
+}
+
+
+h2.refund {
+	margin: 0;
+	padding-left: 1em;
+}
+
+.mission-text:last-child {
+	margin-top: 20px;
+}
+
+/**contact page**/
+.contact-detailsH {
+	margin: 30px 0 10px;
+
+}
+
+.contact-info {
+	/*border: #33F 1px solid;*/
+	width: 320px;
+
+}
+
+
+.contact-info a {
+	color: #000;
+}
+
+.contact-info li:nth-child(n+6) {
+
+	width: 170px;
+	text-align: left;
+	margin-top: 10px;
+	/*border: #F00 1px solid;*/
+
+}
+
+.contact-info li:nth-child(2n+6) {
+	width: 140px;
+	text-align: right;
+	padding-right: 5px;
+
+}
+
+/**Sitemap page**/
+
+.siteMap {
+
+	width: 300px;
+	margin-top: 10px;
+}
+
+
+.siteMap li {
+	margin: 20px 0;
+
+}
+
+
+.siteMap a:hover {
+	color: #fff;
+}
+
+/** Fat Footer **/
+
+.footy {
+	width: 80%;
+	margin: 0 auto;
+
+}
+
+
+
+.footy li {
+	/*border: 2px solid #F39;*/
+	margin: 6px 0;
+	font-size: 0.875em;
+	/*14px/16px*/
+}
+
+.footy a {
+	color: #000;
+	padding: 5px 10px;
+	/*border: 2px solid #3FF;*/
+}
+
+
+.footy a:hover {
+	color: rgb(255, 255, 255);
+	background-color: rgb(255, 000, 000);
+	background: linear-gradient(rgb(255, 0, 0), rgb(0, 0, 0));
+	text-shadow: 1px 1px 2px rgb(000, 000, 000);
+	border-bottom: none;
+
+}
+
+.ltd {
+	margin-bottom: 10px;
+	font-size: 0.675em;
+	color: #454444;
+	/*border: 1px solid #F30CEA;*/
+}
+
+
+
+.copy-right {
+	font-size: 0.725em;
+	/*11.6px/16px*/
+}
+
+
+
+
+
+
+
+
+
+
+
+/* =================================
+  Media Queries
+==================================== */
+
+@media (min-width: 730px) {
+
+
+
+
+	.top-head {
+		text-shadow: 2px 2px 4px rgba(87, 87, 87, .5);
+
+	}
+
+	.bot-head {
+		text-shadow: 2px 2px 4px rgba(247, 247, 247, .5);
+	}
+
+
+	.home-head .top-head {
+		font-size: 2.4em;
+
+	}
+
+
+
+	.home-head .bot-head {
+		font-size: 2em;
+
+	}
+
+
+
+	.first-container .sub-head {
+		font-size: 1.5em;
+	}
+
+
+
+	p {
+		font-size: 1.2em;
+	}
+
+	#experHeadContainer,
+	.experienceHead,
+	.facultyHead {
+		height: 150px;
+		/*border: solid 1px #FF0;*/
+	}
+
+
+	.experienceHead,
+	.facultyHead {
+		width: 500px;
+
+
+
+	}
+
+
+	.experienceHead {
+		font-size: 1.875rem;
+		/*30px/16px*/
+
+	}
+
+	/*****MASTERCLASS*****/
+
+
+	.masterclass .top-head {
+		font-size: 2em;
+	}
+
+	.masterclass .bot-head {
+		font-size: 1.8em;
+	}
+
+
+	.grad3_bg {
+		background: #000 linear-gradient(#000 0%, #000 10%, #f00 75%, #f00 90%, #f00 100%);
+	}
+
+
+	/*****MASTERCLASS END*****/
+
+
+
+	.smoke-man {
+
+		top: 23px;
+		left: 24px;
+		width: 400px;
+	}
+
+
+
+
+
+
+
+
+	.footerHeaders {
+		font-size: 1.7rem;
+		width: 560px;
+
+	}
+
+
+
+	.smoke-man-mission {
+
+
+
+		left: 24px;
+		width: 440px;
+
+
+	}
+
+
+
+
+
+
+	/*Faculty page*/
+
+
+
+
+	.facultyHead {
+		font-size: 2.2rem;
+	}
+
+
+	.smoke-man-faculty {
+		top: 23px;
+		left: 38px;
+		z-index: -1;
+		width: 400px;
+
+	}
+
+
+	.faculty-head .top-head,
+	.faculty-head2 .top-head,
+	.faculty-head .bot-head,
+	.faculty-head2 .bot-head {
+		font-size: 2.6em;
+
+	}
+
+
+
+
+	.artist-name {
+		font-size: 1.6rem;
+	}
+
+
+
+
+
+
+
+	/*Venue page*/
+
+	.inner_container2 p {
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	.venue-head .top-head,
+	.venue-head .bot-head {
+		font-size: 2.8em;
+
+	}
+
+
+	.venue .sub-head {
+		font-size: 1.8em;
+	}
+
+
+	.ven-h2ead {
+		font-size: 1.5em;
+
+	}
+
+	/*Booking page*/
+
+
+	form {
+		max-width: 600px;
+		margin: 100px auto;
+		padding: 10px 20px 30px;
+		box-shadow: inset 0 0 18px 5px rgb(255, 0, 0);
+
+	}
+
+
+	label.booking,
+	input {
+		display: inline-block;
+
+	}
+
+
+	label.booking {
+		width: 280px;
+		font-size: 1.2em;
+	}
+
+
+	label[for="school-address"],
+	label[for="jazz"],
+	label[for="singing"],
+	label[for="pro-experience"],
+	label[for="buy-masterclass"] {
+		display: block;
+		margin: 10px auto 5px;
+		text-align: center;
+		width: 100%;
+	}
+
+
+	legend.pop-out-text {
+		font-size: 2em;
+	}
+
+
+
+	input[id="buy-masterclass"] {
+		width: 55px;
+		padding: 6px;
+		margin-bottom: 10px;
+
+	}
+
+	#card-logos {
+
+		width: 470px;
+		margin: 10px auto 2px;
+
+	}
+
+
+	#card-logos li {
+		width: 64px;
+		margin: 5px 12px;
+
+
+	}
+
+
+	button[type="submit"],
+	button[type="reset"] {
+		width: 275px;
+		border: 2px rgba(0, 0, 0, .7) outset;
+		padding: 6px;
+		font-size: 1.3em;
+
+
+	}
+
+
+	button[type="reset"] {
+		width: 100px;
+	}
+
+
+
+	/*************News Page ****************/
+
+	article.post {
+		margin: 35px 0 10px;
+		padding: 0 0.7em 1em;
+	}
+
+	.postHead {
+		font-size: 1.5em;
+		padding: 5px;
+	}
+
+
+
+	.just {
+		text-align: center;
+		padding: 0 3em;
+	}
+
+
+
+
+
+	/**Footer pages**/
+
+	.contact-detailsH {
+		font-size: 1.5em;
+	}
+
+
+	.contact-info {
+
+		width: 720px;
+		font-size: 1.3em;
+
+	}
+
+
+	.contact-info li:nth-child(n+6) {
+
+		width: 355px;
+		margin-top: 10px;
+	}
+
+
+	.contact-info li:nth-child(2n+6) {
+		width: 355px;
+
+
+	}
+
+
+
+	/**Sitemap page**/
+
+	.siteMap {
+
+
+		margin-top: 20px;
+	}
+
+
+	.siteMap li {
+		margin: 30px 0;
+		font-size: 1.3em;
+
+	}
+
+
+
+
+	/** Fat Footer **/
+
+	.footy {
+		width: 80%;
+		margin: 0 auto;
+
+	}
+
+
+	.big-wrap {
+		min-height: calc(100vh - 300px);
+	}
+
+
+
+	.footy {
+		width: 80%;
+		margin: 0 auto;
+
+	}
+
+
+
+
+}
+
+
+
+
+@media (min-width: 830px) {
+
+	body {
+		padding-top: 140px;
+	}
+
+	/** Header and Nav       **/
+
+
+	.main-header {
+		height: 125px;
+
+	}
+
+
+
+
+	a#menu-button {
+		display: none;
+
+	}
+
+
+	#main-nav ul,
+	.socialMedia {
+		display: block;
+		width: 100%;
+	}
+
+
+
+	.socialMedia {
+
+		float: right;
+		clear: right;
+		margin-top: -37px;
+	}
+
+	.logo {
+		display: inline-block;
+		margin: 0;
+
+	}
+
+	#main-nav {
+		width: 80%;
+		margin: 6px 0 0 0;
+
+	}
+
+
+
+	.logo {
+		width: 125px;
+		height: 120px;
+		margin: 0;
+	}
+
+
+
+
+
+
+
+	#main-nav ul,
+	.socialMedia {
+		text-align: right;
+	}
+
+
+
+
+
+	#main-nav ul {
+		padding-right: 10px;
+	}
+
+
+	#main-nav li {
+		display: inline-block;
+
+
+	}
+
+
+	#main-nav li {
+
+		font-size: 0.850em;
+
+	}
+
+
+	#main-nav a.current {
+
+		border-bottom: 4px solid rgb(255, 0, 0);
+
+	}
+
+
+	#main-nav li a:hover {
+
+		background: rgb(000, 000, 000);
+		background: linear-gradient(rgb(255, 0, 0), rgb(0, 0, 0));
+		border-bottom: none;
+
+
+	}
+
+
+	.home-head .top-head {
+		font-size: 2.8em;
+
+	}
+
+
+
+	.home-head .bot-head {
+		font-size: 2.6em;
+
+	}
+
+
+
+	.first-container .sub-head {
+		font-size: 1.8em;
+		margin-bottom: 1.2em;
+	}
+
+
+
+
+
+	.first-container .inner-container {
+		height: 650px;
+
+
+
+	}
+
+
+	/*****MASTERCLASS*****/
+
+
+	.masterclass-head .top-head {
+		font-size: 2.2em;
+	}
+
+	.masterclass-head .bot-head {
+		font-size: 2em;
+	}
+
+
+
+	.book {
+
+		background: none;
+		width: 100%;
+		height: 140px;
+		margin: 0;
+		padding: 2.2em 0 0.5em;
+		text-shadow: 1px 1px 1px #f3c;
+		clear: both;
+
+
+	}
+
+
+	.book,
+	.book2,
+	.ven-date {
+		font-size: 2.2em;
+
+	}
+
+	/*****MASTERCLASS END*****/
+
+
+
+
+
+
+
+	.col-right,
+	.bio-cols-right,
+	.fig-bio-right,
+	.fig-modal-right,
+	.modal_wrap .bottom {
+		float: right;
+
+	}
+
+
+
+	.col-left,
+	.col,
+	.bio-cols-left,
+	.fig-bio-left,
+	.fig-modal-left {
+
+		float: left;
+	}
+
+
+	#bar {
+		width: 59%;
+		/*border: 2px solid #fff;*/
+	}
+
+
+
+
+	#fameHands,
+	#masterclass-image,
+	.masterclass-Text,
+	.masterclass-Text2,
+	#danceStudio-img {
+		width: 49%
+	}
+
+
+	#bar,
+	#fameHands {
+		margin: 2em 0 2em 1%;
+	}
+
+	.home-excitingText {
+		width: 39%;
+		margin: 0 1% 0 0;
+		padding-bottom: 3em;
+	}
+
+
+	.home-excitingText,
+	.masterclass-Text,
+	#masterclass-image {
+		margin: 0 1% 0 0;
+		padding-bottom: 3em;
+	}
+
+
+	.masterclass-Text2,
+	#danceStudio-img {
+		margin: 0 0 0 1%;
+
+	}
+
+	.masterclass-Text2,
+	#masterclass-image {
+		margin-top: 2em;
+	}
+
+
+
+	#fameHands {
+		height: 550px;
+	}
+
+
+	#masterclass-image {
+		height: 500px;
+
+	}
+
+
+
+
+
+
+
+	.experience-text,
+	.mission-text {
+
+		text-align: justify;
+	}
+
+
+
+
+	.move-top2 {
+		font-size: 1.2em;
+		margin-top: 15px;
+	}
+
+
+
+
+
+
+
+	/**Faculty Page Elements**/
+
+	.faculty-head .top-head,
+	.faculty-head2 .top-head,
+	.faculty-head .bot-head,
+	.faculty-head2 .bot-head {
+		font-size: 2.8em;
+
+	}
+
+
+
+
+
+	.theseArtist {
+		text-align: left;
+	}
+
+
+	.artist-name {
+		font-size: 1.7rem;
+	}
+
+	.fig-bio-left,
+	.fig-bio-right {
+		width: 38%;
+		margin-top: 40px;
+	}
+
+
+	.fig-bio-left {
+		margin-right: 2%;
+	}
+
+
+	.fig-bio-right {
+		margin-left: 2%;
+
+	}
+
+
+	.bio-cols-right,
+	.bio-cols-left {
+		width: 58%;
+		/*border: solid 2px #3F0;*/
+
+	}
+
+
+
+	.bio-cols-left {
+
+		margin-left: 2%;
+
+	}
+
+
+
+
+	.bio-cols-right {
+		margin-right: 2%;
+	}
+
+
+
+
+	.hidden-text:target {
+
+		display: none;
+
+	}
+
+
+	.anchor {
+		display: none;
+
+	}
+
+	.hide-anchor {
+		display: none;
+
+	}
+
+
+
+
+
+	/**Modal Elements**/
+
+
+
+	.fig-modal-left {
+		width: 25%;
+		margin-right: 20px;
+
+	}
+
+
+
+	.fig-modal-right {
+		width: 25%;
+		margin-left: 20px;
+	}
+
+
+	.fig-modal-left,
+	.fig-modal-right {
+		margin-bottom: 10px;
+	}
+
+
+	.firt-bio-para {
+		margin-top: 40px;
+	}
+
+
+
+	.modal {
+		display: inline-block;
+		padding: 1em;
+		box-shadow: 0 0 10px 5px rgba(255, 0, 0, .5);
+		margin-left: 30px;
+	}
+
+
+	.modal>label {
+
+		border-radius: .2em;
+		color: #fff;
+		cursor: pointer;
+		display: inline-block;
+		font-size: 1.3rem;
+		font-weight: 700;
+		padding: 0.35em;
+		text-shadow: 1px 1px 1px #F3C;
+		transition: all 0.55s;
+	}
+
+	modal>label {
+
+		transform: scale(0.97);
+
+	}
+
+
+	.modal_overlay {
+		bottom: 0;
+		top: 0;
+		position: fixed;
+		right: 0;
+		text-shadow: none;
+		z-index: 600;
+
+	}
+
+	.modal_wrap {
+		padding: 1em;
+		position: relative;
+		color: #fff;
+
+	}
+
+
+	.modal_wrap .bottom {
+		margin: -35px 10px 0 0;
+		font-size: 2em;
+	}
+
+	input[type="checkbox"] {
+
+		visibility: hidden;
+		width: 1px;
+
+	}
+
+
+	.modal_overlay {
+		opacity: 0;
+		z-index: -150;
+		transform: scale(0.5);
+		transition: all 0.75s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+	}
+
+
+	input:checked~.modal_overlay {
+		opacity: 1;
+		transform: scale(1);
+		z-index: 800;
+
+	}
+
+	/** Float Clearfix **/
+
+	.group::after {
+		content: "";
+		display: table;
+		clear: both;
+
+	}
+
+	/*Venue page*/
+
+
+
+	.venue-head .top-head,
+	.venue-head .bot-head {
+		font-size: 2.8em;
+
+	}
+
+
+	.venue .sub-head {
+		font-size: 1.8em;
+	}
+
+
+	.ven {
+		font-size: 2.6em;
+
+	}
+
+
+
+
+
+
+
+
+	/**Footer pages **/
+	.fat-footer {
+		padding-top: 60px;
+	}
+
+
+	.footy li {
+
+		display: inline-block;
+		margin: 0 8px;
+	}
+
+
+	#foot-card-logos {
+
+		width: 80%;
+		margin: 30px auto 2px;
+
+
+	}
+
+	footer {
+
+		text-align: left;
+		margin-left: 5px;
+		padding: 0;
+		padding-left: 5px;
+
+	}
+
+	.copy-right {
+		font-size: 0.925em;
+	}
+
+
+
+
+
+
+
+
+	/*Mission Statement Page*/
+
+	.footerHeaders {
+		font-size: 2rem;
+		width: 760px;
+
+
+	}
+
+
+	.mission-text {
+		margin-top: 100px;
+
+	}
+
+
+
+	.smoke-man-mission {
+
+
+
+		left: 24px;
+		width: 640px;
+
+
+	}
+
+
+
+
+
+
+
+}
+
+
+
+
+@media (min-width: 1024px) {
+
+	.inner-container,
+	.inner-container2 {
+		max-width: 1300px;
+		margin: 0 auto;
+
+	}
+
+
+	#bar,
+	.masterclassFame-image {
+
+
+		margin: 0 0 2em 1%;
+		/*border: 2px solid #fff;*/
+	}
+
+
+	.home-excitingText,
+	.homeText-col {
+
+		margin: 70px 1% 0 0;
+
+	}
+
+
+
+
+	/*****MASTERCLASS*****/
+
+
+	.masterclass .top-head {
+		font-size: 2.4em;
+	}
+
+	.masterclass .bot-head {
+		font-size: 2.2em;
+	}
+
+
+
+	#fameHands {
+		height: 450px;
+	}
+
+
+	#masterclass-image {
+		height: 400px;
+
+	}
+
+
+	.masterclass-Text2,
+	#masterclass-image {
+		margin-top: 6em;
+	}
+
+	/*****MASTERCLASS END*****/
+
+
+
+	.sub-head,
+	.artist-name,
+	.paul {
+		font-size: 1.75em;
+		padding-top: 0.5em;
+	}
+
+	.exciting {
+		padding-top: 4em;
+	}
+
+	#experHeadContainer,
+	.experienceHead,
+	.facultyHead {
+		height: 220px;
+	}
+
+
+
+	.facultyHead {
+		width: 500px;
+
+
+
+	}
+
+
+
+	.experienceHead,
+	.facultyHead {
+		width: 800px;
+
+	}
+
+
+
+	.experienceHead {
+		font-size: 2.625rem;
+		/*42px/16px*/
+
+	}
+
+
+	.smoke-man {
+		width: 607px;
+		left: 77px;
+	}
+
+
+	.experience-text {
+		padding: 0 5em;
+
+	}
+
+
+	.col .inner-container {
+		padding: 0 3em;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+	/**Faculty Page Elements**/
+
+
+
+
+
+	.facultyHead {
+		font-size: 2.9rem;
+	}
+
+
+	.smoke-man-faculty {
+		top: 13px;
+		left: 112px;
+		width: 607px;
+
+	}
+
+
+
+
+
+	.fig-bio-right,
+	.fig-bio-left {
+		width: 48%;
+		margin-top: 40px;
+
+	}
+
+	.fig-bio-right {
+		margin-left: 2%;
+	}
+
+
+	.fig-bio-left {
+		margin-right: 2%;
+
+	}
+
+
+
+	.bio-cols-right,
+	.bio-cols-left {
+		width: 48%;
+
+	}
+
+
+
+	p.bio-cols-left {
+		margin-left: 2%;
+
+	}
+
+
+
+	.bio-cols-right {
+		margin-right: 2%;
+	}
+
+	.bio-images-first,
+	.bio-images {
+		width: 400px;
+	}
+
+
+
+	.modal_wrap p {
+		margin-top: 60px;
+		padding: 0 1em;
+
+	}
+
+
+	#chetWalker .modal_wrap p {
+		font-size: 1em;
+	}
+
+
+
+	#andrewWright .modal_wrap p,
+	#jaeAlexander .modal_wrap p {
+		font-size: 0.9em;
+		margin-top: 0;
+
+	}
+
+
+
+	/**Venue Page Elements**/
+
+	.venueText {
+		margin-top: 3em;
+
+	}
+
+
+	/**News Page Elements**/
+
+
+	article.post {
+		margin: 35px 0 10px;
+		padding: 0 0.7em 1em;
+	}
+
+	.postHead {
+		font-size: 1.5em;
+		padding: 5px;
+	}
+
+
+	.just {
+		text-align: center;
+		padding: 0 2em;
+	}
+
+
+
+
+	/**Sitemap page**/
+
+	.siteMap {
+
+
+		margin-top: 40px;
+		padding-bottom: 3em;
+	}
+
+
+	.siteMap li {
+		margin: 20px 0;
+		font-size: 1.5em;
+
+	}
+
+
+
+
+}
+
+
+
+@media (min-width: 1030px) {
+
+	#chetWalker .modal_wrap p {
+		font-size: 1.3em;
+	}
+
+
+	#andrewWright .modal_wrap p,
+	#jaeAlexander .modal_wrap p {
+		font-size: 1em;
+		margin-top: 0;
+
+	}
+
+}
