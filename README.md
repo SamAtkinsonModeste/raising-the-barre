@@ -1,10 +1,10 @@
 # Raising The Barre – Musical Theatre Masterclasses (Static Site)
 
-This is a 9-page marketing website I designed and built for **Raising The Barre**, a Musical Theatre Masterclass company run by West End/Broadway professionals.
+This is a 9-page marketing website I designed and built for **Raising The Barre**, a Musical Theatre Masterclass company run by West End and Broadway professionals.
 
-At the time of building this project I was working primarily as a **web designer** using **HTML and CSS only** – no JavaScript frameworks yet. I created the layout, branding, and all imagery in **Adobe Photoshop**, and implemented the site as a responsive(ish) static site.
+I created this project while studying for my **Front-End Web Development Techdegree at Treehouse**, before reaching the JavaScript portion of the course. At that stage, I was focusing on **HTML and CSS** fundamentals and learning through real-world application. I designed the layout, branding, and all imagery in **Adobe Photoshop**, and implemented the site as a responsive static website.
 
-> This project represents my _early_ front-end work, before I moved into React, Django, and full-stack development. I am keeping it in my portfolio because it shows real client collaboration and multi-page structure.
+> This project represents my early front-end work completed as a student, before I advanced into JavaScript, React, Django, and full-stack development. I’m keeping it in my portfolio because it demonstrates both client collaboration and creative problem-solving.
 
 ---
 
