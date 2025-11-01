@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="img/RTB-Logo.jpg" alt="Raising The Barre logo" width="200" style="border-radius: 12px;">
+  <img src="img/RTB-Logo-rounded.png" alt="Raising The Barre logo" width="200">
 </p>
 
 # Raising The Barre – Musical Theatre Masterclasses (Static Site)
