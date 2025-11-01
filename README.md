@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="img/RTB-Logo.jpg" alt="Raising The Barre logo" width="200" style="border-radius: 12px;">
+</p>
+
 # Raising The Barre – Musical Theatre Masterclasses (Static Site)
 
 This is a 9-page marketing website I designed and built for **Raising The Barre**, a Musical Theatre Masterclass company run by West End and Broadway professionals.
