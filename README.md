@@ -4,7 +4,9 @@ This is a 9-page marketing website I designed and built for **Raising The Barre*
 
 I created this project while studying for my **Front-End Web Development Techdegree at Treehouse**, before reaching the JavaScript portion of the course. At that stage, I was focusing on **HTML and CSS** fundamentals and learning through real-world application. I designed the layout, branding, and all imagery in **Adobe Photoshop**, and implemented the site as a responsive static website.
 
-> This project represents my early front-end work completed as a student, before I advanced into JavaScript, React, Django, and full-stack development. I’m keeping it in my portfolio because it demonstrates both client collaboration and creative problem-solving.
+Despite not yet knowing JavaScript or event listeners, I built **interactive overlays for each guest teacher using CSS only**, demonstrating a creative and resourceful approach to problem-solving.
+
+> This project represents my early front-end work completed as a student, before I advanced into JavaScript, React, Django, and full-stack development. I’m keeping it in my portfolio because it demonstrates both client collaboration and creative thinking.
 
 ---
 

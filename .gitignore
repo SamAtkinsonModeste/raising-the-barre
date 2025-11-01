@@ -420,3 +420,4 @@ FodyWeavers.xsd
 
 # my project files
 .htaccess
+settings.json
