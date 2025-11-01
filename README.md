@@ -69,9 +69,7 @@ If you’d like to explore the full project, download or clone the repository an
 
 ## 🌐 Live Demo
 
-(when deployed to GitHub Pages)
-
-**Live:** [https://your-username.github.io/raising-the-barre/](https://your-username.github.io/raising-the-barre/)
+**Live:** [Raising The Barre](https://samatkinsonmodeste.github.io/raising-the-barre/)
 
 ---
 
